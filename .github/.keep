@@ -31,6 +31,10 @@
                     <li><a href=#> Contact</a></li>
                 </ul>
             </nav>
+
+
+
+            <section>      
         </header>
         <main>
             <h1> Random City of Ottawa Things</h1>
@@ -42,6 +46,11 @@
                     <li><a href=#> Ward Councillor Evaluation Form </a></li>
                 </ul>
         </header>
+    </section>
+
+
+
+    <section>
             <h1> Housing Construction Summary for Q1 2023</h1>
             <p> In Q1 2023, there were: </p>
         <dl>
@@ -54,15 +63,31 @@
              <dd> • 579 of which are not-for-profit </dd>
              <dt> • 2,135 dwellings where construction was completed</dt>
         </dl>
+    </section>
+
+
+
+    <section>
         <header>
             <h2> Wards</h2>
             <p> The City of Ottawa is divided into 24 wards. Each ward has a councillor who represents the residents of that ward</p>
         </header>
         <img src="./images/ottawa-map.png" alt="Ottawa Map"/>
+    </section>
+
+
+
+    <section>
         <header> 
             <h2> Property Taxes</h2>
         </header>
-        <p> The city of Ottawa collects property taxes from residents to help pay for services such as roads, parks, and public transit.</p>
+        <p> The city of Ottawa collects property taxes from residents to help pay 
+            for services such as roads, parks, and public transit.</p>
+    </section>
+
+
+
+    <section>
         <h3> Probing questions</h3>
         <p> Reviewing the data in the following table, answer the following questions:</p>
         <ul>
@@ -71,7 +96,12 @@
             <li> What is the total property tax revenue for the City of Ottawa?</li>
             <li> What is the difference in size between the ward that collects the most property taxes and the ward that collects the least?</li>
         </ul>
+    </section>
+
+
+
         <!--Beginning of Table-->
+       <section>
         <header> 
             <h3>
                 Ward specific data 
@@ -215,7 +245,11 @@
         </tr>
        </tbody>
     </table>
+</section>
     <!--End of Table-->
+
+
+    <section>
     <header> 
         <h2>Ward Councillor Evaluation Form</h2>
         <p> Rents too high? Not enough housing options in your neighbourhood. 
@@ -227,6 +261,9 @@
             mayor and local councillors. Let your councillor know what youb think about the job
             they are doing. Fill out the form below to provide your feedback.
         </p>
+
+
+        
      <!--Beginnning of form-->
      <form action="/server-page-handling-form-data" method="post">
         <ul>
@@ -251,7 +288,11 @@
             </li>
         </ul>
      </form>
+    </section>
      <!--End of form-->
+
+
+
      <footer>
         <h2>Site Footer</h2>
      </footer>

@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en-ca">
+    <head>
+        <title> HTML Review</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport"
+        content="width=device-width,
+        initial-scale=1.0"/>
+        <meta http-equiv="X-UA-compatible"
+        content="ie=edge"/>
+        <!--Doc setup for all pages-->
+
+        <head>
+            <link rel="stylesheet" href="style.css"/>
+        </head>
+        <!--Trying to setup CSS-->
+        
+        <!--beginning of web page-->
+    </head>
+    <body>
+        <header>
+            <h2>Site Header</h2>
+            <p>Site title: City of Ottawa Random Data</p>
+
+            <img src=./images/house.png alt="house"/>
+            <nav>
+                <h3>Site Menu</h3>
+                <ul>
+                    <li><a href=#> Home </a></li>
+                    <li><a href=#> About Us </a></li>
+                    <li><a href=#> Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1> Random City of Ottawa Things</h1>
+                <h2> Table of Contents </h2>
+                <ul>
+                    <li><a href=#> Housing Construction Summary for Q1 2023 </a></li>
+                    <li><a href=#> Wards </a></li>
+                    <li><a href=#> Property Taxes </a></li>
+                    <li><a href=#> Ward Councillor Evaluation Form </a></li>
+                </ul>
+        </header>
+            <h1> Housing Construction Summary for Q1 2023</h1>
+            <p> In Q1 2023, there were: </p>
+        <dl>
+            <dt> • 2,716 dwellings granted land use permission through Official Plan or Zoning By-law Amedments </dt>
+            <dd> • 10 of which were not-for-profit-dwellings</dd>
+            <dt> • 4,621 dwellings pproved through Plan of Subdivision, Plan of Condominium, Site Plan Control, Minor Variance, and Severance applications </dt>
+             <dt> • 3,187 net dwellings issued building permits</dt>
+             <dt> • 1,626 housing starts</dt>
+             <dt> • 14,945 dwellings under construction</dt>
+             <dd> • 579 of which are not-for-profit </dd>
+             <dt> • 2,135 dwellings where construction was completed</dt>
+        </dl>
+        <header>
+            <h2> Wards</h2>
+            <p> The City of Ottawa is divided into 24 wards. Each ward has a councillor who represents the residents of that ward</p>
+        </header>
+        <img src="./images/ottawa-map.png" alt="Ottawa Map"/>
+        <header> 
+            <h2> Property Taxes</h2>
+        </header>
+        <p> The city of Ottawa collects property taxes from residents to help pay for services such as roads, parks, and public transit.</p>
+        <h3> Probing questions</h3>
+        <p> Reviewing the data in the following table, answer the following questions:</p>
+        <ul>
+            <li> Which ward has the highest property tax revenue?</li>
+            <li> Which ward has the lowest property tax revenue?</li>
+            <li> What is the total property tax revenue for the City of Ottawa?</li>
+            <li> What is the difference in size between the ward that collects the most property taxes and the ward that collects the least?</li>
+        </ul>
+        <!--Beginning of Table-->
+        <header> 
+            <h3>
+                Ward specific data 
+            </h3>
+        </header>
+        <table> 
+       <thread>
+        <tr> 
+            <th>Ward</th>
+            <th>Ward Name</th>
+            <th>Municipal Taxes</th>
+            <th>Percent of Total</th>
+        </tr>
+       </thread>
+       <tbody>
+        <tr>
+            <td>1</td>
+            <td> ORLEANS EAST-CUMBERLAND</td>
+            <td>76, 175, 204</td>
+            <td>3.75%</td>
+        </tr>
+        <td>2</td>
+        <td> ORLEANS WEST-INNES</td>
+        <td>66, 504, 224</td>
+        <td>3.27%</td>
+        <tr>
+            <td>3</td>
+            <td>BARRHAVEN WEST</td>
+            <td>89, 847, 966</td>
+            <td>4.42%</td>
+        </tr>
+        <td>4</td>
+        <td>KANATA NORTH</td>
+        <td>100, 674, 860</td>
+        <td>4.96%</td>
+        <tr>
+            <td>5</td>
+            <td>WEST CARLETON-MARCH</td>
+            <td>41, 848, 481</td>
+            <td>2.06%</td>
+        </tr>
+        <td>6</td>
+        <td>STITTSVILLE</td>
+        <td>86, 734, 417</td>
+        <td>4.27%</td>
+        <tr>
+            <td>7</td>
+            <td>BAY</td>
+            <td>90, 814, 792</td>
+            <td>4.47%</td>
+        </tr>
+        <td>8</td>
+        <td>COLLEGE</td>
+        <td>92, 745, 516</td>
+        <td>4.57%</td>
+        <tr>
+            <td>9</td>
+            <td>KNOXDALE-MERIVALE</td>
+            <td>83, 979, 020</td>
+            <td>4.13%</td>
+        </tr>
+        <td>10</td>
+        <td>GLOUCESTER-SOUTHGATE</td>
+        <td>81, 538, 410</td>
+        <td>4.01%</td>
+        <tr>
+            <td>11</td>
+            <td>BEACON HILL-CYRVILLE</td>
+            <td>68, 023, 631</td>
+            <td>3.35%</td>
+        </tr>
+        <td>12</td>
+        <td>RIDEAU-VANIER</td>
+        <td>111, 861, 953</td>
+        <td>5.51%</td>
+        <tr>
+            <td>13</td>
+            <td>RIDEAU-ROCKCLIFFE</td>
+            <td>82, 026, 391</td>
+            <td>4.04%</td>
+        </tr>
+        <td>14</td>
+        <td>SOMERSET</td>
+        <td>198, 629, 780</td>
+        <td>9.78%</td>
+        <tr>
+            <td>15</td>
+            <td>KITCHISSIPPI</td>
+            <td>98, 468, 851</td>
+            <td>4.85%</td>
+        </tr>
+        <td>16</td>
+        <td>RIVER</td>
+        <td>77, 794, 332</td>
+        <td>3.83%</td>
+        <tr>
+            <td>17</td>
+            <td>CAPITAL</td>
+            <td>94, 693, 764</td>
+            <td>4.66%</td>
+        </tr>
+        <td>18</td>
+        <td>ALTA VISTA</td>
+        <td>93, 484, 569</td>
+        <td>4.60%</td>
+        <tr>
+            <td>19</td>
+            <td>ORLEANS SOUTH-NAVAN</td>
+            <td>84, 471, 284</td>
+            <td>4.16%</td>
+        </tr>
+        <td>20</td>
+        <td>OSGOODE</td>
+        <td>50, 198, 912</td>
+        <td>2.47%</td>
+        <tr>
+            <td>21</td>
+            <td>RIDEAU-JOCK</td>
+            <td>50, 347, 696</td>
+            <td>2.48%</td>
+        </tr>
+        <td>22</td>
+        <td>RIVERSIDE SOUTH-FINDLAY CREEK</td>
+        <td>64, 086, 253</td>
+        <td>3.16%</td>
+        <tr>
+            <td>23</td>
+            <td>KANATA SOUTH</td>
+            <td>77, 107, 277</td>
+            <td>3.80%</td>
+        </tr>
+        <td>24</td>
+        <td>BARRHAVEN EAST</td>
+        <td>68, 916, 398</td>
+        <td>3.39%</td>
+        <tr>
+            <td>Total</td>
+            <td>CITYWIDE</td>
+            <td>2, 030, 973, 981</td>
+            <td>100%</td>
+        </tr>
+       </tbody>
+    </table>
+    <!--End of Table-->
+    <header> 
+        <h2>Ward Councillor Evaluation Form</h2>
+        <p> Rents too high? Not enough housing options in your neighbourhood. 
+            OCTranspo buses constantly late or not arriving at all. OTrain shut down again? 
+            Do you have to ride your bike on a sidewalk because the roads you use aren't
+            comfortable and don't have a protected bike lane?
+        </p>
+        <p>These are all examples of areas of responsibilities that fall to the city and to the 
+            mayor and local councillors. Let your councillor know what youb think about the job
+            they are doing. Fill out the form below to provide your feedback.
+        </p>
+     <!--Beginnning of form-->
+     <form action="/server-page-handling-form-data" method="post">
+        <ul>
+            <li>
+                <label for="full name">Name:</label>
+                <input type="text" id="full name" placeholder="Chris Rogers"/>
+            </li>
+            <li>
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="chris@avengers.com"/>
+            </li>
+            <li>
+                <label for="urgency">Urgency:</label>
+                <input type="range" id="Urgency" name="Urgency"/>
+            </li>
+            <li>
+                <label for="message">Message:</label>
+                <textarea id="message" rows="5"></textarea>
+            </li>
+            <li>
+                <button type="submit">Submit</button>
+            </li>
+        </ul>
+     </form>
+     <!--End of form-->
+     <footer>
+        <h2>Site Footer</h2>
+     </footer>
+
+
+     <nav>
+        <h3>Menu</h3>
+        <ul>
+            <li><a href=#> Home </a></li>
+            <li><a href=#> About Us </a></li>
+            <li><a href=#> Contact</a></li>
+        </ul>
+    </nav>
+
+    </body>
+</html>
